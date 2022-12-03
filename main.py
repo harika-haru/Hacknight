@@ -5,7 +5,7 @@ import discord
 from dotenv import load_dotenv
 
 load_dotenv()
-TOKEN = os.getenv('MTAzODQ5NTQ5NzAzMzM1MTI3OQ.G18GDv.mb0F3K1IRSdYhg7uSyRdKhLujGRQJeFuFZDvgw')
+TOKEN = os.getenv('MTAzODQ5NTQ5NzAzMzM1MTI3OQ.GDALvN.VWzvyDbh4ROWWu0oUjs6kOH3I9iKiY_MwVxXZg')
 
 class CustomClient(discord.Client):
     async def on_ready(self):
