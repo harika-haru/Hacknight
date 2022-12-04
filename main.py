@@ -15,8 +15,6 @@ async def on_message(message):
  
     if message.content.startswith('hi'):
         await message.channel.send('Hello!')
+
  
-    if message.content.startswith('image'):
-        await message.channel.send(file=discord.File('download.jpg'))
- 
-client.run('MTA0ODgxNjc3NTkyNTYxMjU5NA.G0N3Tj.3ux6YYpeScgnqBsXFevatqad4CluzlDCzUInFM')
+client.run('MTA0ODgxNjc3NTkyNTYxMjU5NA.G4uxy_.W5WV13nN0ZyuETrqDLW8BJcRCDubGfzAErwH9Y')
